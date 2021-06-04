@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_10sdp"
+    app:chainUseRtl="true">
+
+    <TextView
+        android:id="@+id/tvTitleSelectImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/title_select_image_action"
+        android:textColor="@color/grey_900"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvCamera"/>
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_30sdp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/lbl_camera"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="@color/blue_grey_700"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvGallery"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleSelectImg"
+        app:drawableTopCompat="@drawable/ic_vector_photo_camera" />
+
+    <TextView
+        android:id="@+id/tvGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_30sdp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/lbl_gallery"
+        android:gravity="center"
+        android:textColor="@color/blue_grey_700"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintStart_toEndOf="@+id/tvCamera"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitleSelectImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:drawableTopCompat="@drawable/ic_vector_gallery" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PrRoomDBExample</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_all_dishes">All Dishes</string>
+    <string name="title_favrite">Favorite</string>
+    <string name="title_random">Random</string>
+    <string name="splash_screen_title">Fav Dish</string>
+    <string name="add_dish">Add Dish</string>
+    <string name="lbl_add_dish">ADD DISH</string>
+    <string name="image_contentDescriptions">image</string>
+    <string name="lbl_title">Title</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_category">Category</string>
+    <string name="lbl_ingredients">Ingredients</string>
+    <string name="lbl_cooking_time_in_minutes">Cooking Time In Minutes</string>
+    <string name="lbl_direction_to_cook">Direction To Cook</string>
+    <string name="title_select_image_action">Select Image Action</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="title_select_dish_type">Select Dish Type</string>
+    <string name="title_select_dish_category">Select Dish Category</string>
+    <string name="title_select_cooking_time_in_minutes">Select Cooking Time In Minutes</string>
+    <string name="err_msg_title_empty">Please enter dish title</string>
+    <string name="err_msg_type_empty">Please select dish Type</string>
+    <string name="err_msg_category_empty">Please select dish Category</string>
+    <string name="err_msg_ingredients_empty">Please enter ingedients which presents indish</string>
+    <string name="err_msg_cooking_time_empty">Please select time to prepare this dish</string>
+    <string name="err_msg_direction_empty">Please enter direction to cook</string>
+    <string name="err_msg_image_empty">Please select your dish image from gallery or capture it from camera</string>
+    <string name="valid_all_data">All entries are vaid you can go ahead</string>
+</resources>
